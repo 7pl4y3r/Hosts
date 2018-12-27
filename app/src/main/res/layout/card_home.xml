@@ -23,12 +23,6 @@
                 style="@style/Description"
                 android:layout_below="@id/tvTitle"/>
 
-        <Button
-                android:id="@+id/btAction"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                style="@style/ActionButton"/>
-
     </RelativeLayout>
 
 </android.support.v7.widget.CardView>

@@ -19,15 +19,13 @@ class RecyclerViewAdapter(private val itemList: ArrayList<RecyclerViewItem>) : R
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
 
-        holder.tvTitle.text = itemList[position].mTitle()
-        holder.tvDescription.text = itemList[position].mDescription()
-        holder.btAction.text = itemList[position].mActionName()
+        holder.tvTitle.setText(itemList[position].mTitle())
+        holder.tvDescription.setText(itemList[position].mDescription())
     }
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
         val tvTitle: TextView = itemView.findViewById(R.id.tvTitle)
         val tvDescription: TextView = itemView.findViewById(R.id.tvDescription)
-        val btAction: Button = itemView.findViewById(R.id.btAction)
     }
 }

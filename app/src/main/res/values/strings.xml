@@ -4,10 +4,7 @@
     <string name="title0">Become a host</string>
     <string name="title1">Find host</string>
 
-    <string name="descr0">Offers travellers a place where they can eat, sleep and explore the local area</string>
+    <string name="descr0">Offer travellers a place where they can eat, sleep and explore the local area</string>
     <string name="descr1">Find a host that can help you explore the local area</string>
-
-    <string name="act0">Let us register you</string>
-    <string name="act1">Let us go search</string>
 
 </resources>

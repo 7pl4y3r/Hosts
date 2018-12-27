@@ -10,8 +10,8 @@ class Home : AppCompatActivity() {
     private val itemList = ArrayList<RecyclerViewItem>()
 
     private fun setItemList() {
-        itemList.add(RecyclerViewItem(R.string.title0, R.string.descr0, R.string.act0))
-        itemList.add(RecyclerViewItem(R.string.title1, R.string.descr1, R.string.act1))
+        itemList.add(RecyclerViewItem(R.string.title0, R.string.descr0))
+        itemList.add(RecyclerViewItem(R.string.title1, R.string.descr1))
     }
 
     private fun setRecyclerView() {
